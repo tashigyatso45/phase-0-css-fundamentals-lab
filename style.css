@@ -3,3 +3,42 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+nav {
+text-align: center;
+}
+nav a {
+background-color: grey;
+padding: 10px
+}
+figcaption{
+text-align: center;
+font-size: smaller;
+}
+#featured-property{
+text-align: center;
+}
+p{
+width: 800px;
+margin: 20px auto;
+}
+#details div {
+  float: left;
+  margin-right: 20px;
+}
+ div {
+  background-color: #333; /* Set the background color to your desired color */
+  text-align: center; /* Center-align the text within the divs */
+  width: 25%; /* Occupy 25% of the width */
+  padding: 10px; /* Add some padding for spacing */
+  color: white; /* Set the text color to white */
+  box-sizing: border-box;
+}
